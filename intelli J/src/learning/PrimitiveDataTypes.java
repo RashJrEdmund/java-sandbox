@@ -7,16 +7,22 @@ public class PrimitiveDataTypes {
 
         System.out.println("The boolean literal is = " + booleanLiteral);
 
+        System.out.println("\n");
+
         // 2 STRINGS;
         // 2.1 Strings;
         String stringLiteral = "Rash";
 
         System.out.println("Hello " + stringLiteral);
 
+        System.out.println("\n");
+
         // 2.2 Char;. use single quotes and can only contain a single character.
         char character = 'A';
 
         System.out.println("The character is = " + character);
+
+        System.out.println("\n");
 
         // 3 NUMBERS
         // 3.1 Integers
@@ -29,12 +35,16 @@ public class PrimitiveDataTypes {
 
         System.out.println("Your age is " + age);
 
+        System.out.println("\n");
+
         // 3.2 Bytes
         byte maxByteValue = Byte.MAX_VALUE;
         byte minByteValue = Byte.MIN_VALUE;
 
         System.out.println("The maximum byte value is = " + maxByteValue);
         System.out.println("The minimum byte value is = " + minByteValue);
+
+        System.out.println("\n");
 
         // 3.3 Longs
         long maxLongValue = Long.MAX_VALUE;
@@ -45,12 +55,16 @@ public class PrimitiveDataTypes {
         System.out.println("The minimum long value is = " + minLongValue);
         System.out.println("Long literal = " + longLiteral);
 
+        System.out.println("\n");
+
         // 3.4 Shorts
         short maxShortVal = Short.MAX_VALUE;
         short minShortVal = Short.MIN_VALUE;
 
         System.out.println("The max short val is = " + maxShortVal);
         System.out.println("The min short val is = " + minShortVal);
+
+        System.out.println("\n");
 
         // 3.5 Floats. Use if you need little precision
         float maxFloatValue = Float.MAX_VALUE;
@@ -60,6 +74,8 @@ public class PrimitiveDataTypes {
         System.out.println("The maximum float value is = " + maxFloatValue);
         System.out.println("The minimum float value is = " + minFloatValue);
         System.out.println("Float literal = " + floatLiteral);
+
+        System.out.println("\n");
 
         // 3.6 Doubles. Use if you need a lot of precision
         double maxDoubleValue = Double.MAX_VALUE;
