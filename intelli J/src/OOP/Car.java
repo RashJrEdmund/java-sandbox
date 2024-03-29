@@ -14,6 +14,10 @@ public class Car {
         this.doors = doors;
     }
 
+    public Car() {
+        this("Car Name", "Car Model", "Car Color", 0); // giving default values if Car is instantiated without passing params
+    }
+
     public void move() {
         System.out.println("The car " + this.name + " is moving");
     }
